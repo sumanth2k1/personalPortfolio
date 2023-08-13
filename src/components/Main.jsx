@@ -34,7 +34,7 @@ export default function Main() {
               style={{ fontSize: "1em", paddingLeft:"5px" }}
             />
           </h2>
-          <div className="flex justify-between pt-6 max-w-[150px] w-full">
+          <div className="flex justify-between max-w-[150px] m-2 p-2 justify-center items-center rounded-full bg-gray-100 shadow-gray-400 w-full" data-theme="winter" >
             <a href="https://github.com/sumanth2k1?tab=overview&from=2023-04-01&to=2023-04-24">
               <SlSocialGithub size={20} className="cursor-pointer hover:scale-110 ease-in duration-200" href=""/>
             </a>

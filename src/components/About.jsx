@@ -23,13 +23,13 @@ const data1 = [
     details:
       "Completed my Graduation from Mumbai University with Computer Science major",
   },
-  {
-    year: 2024,
-    title: "M.S.c ( CS )",
-    duration: "",
-    details:
-      "Currently pursuing my Masters in Computer Science from Mumbai University",
-  }
+  // {
+  //   year: 2024,
+  //   title: "M.S.c ( CS )",
+  //   duration: "2 Years",
+  //   details:
+  //     "Currently pursuing my Masters in Computer Science from Mumbai University",
+  // }
 ];
 
 const data2 = [
@@ -54,7 +54,7 @@ const data2 = [
 export default function About() {
   return (
     <div id="about" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e] mb-5">
+      <h1 className="text-4xl font-bold text-center mb-5">
         Education
       </h1>
       {data1.map((item, idx) => (
@@ -68,7 +68,7 @@ export default function About() {
           details2={item.details2}
         />
       ))}
-      <h1 className="text-4xl font-bold text-center text-[#001b5e] mb-5">
+      <h1 className="text-4xl font-bold text-center mb-5">
         Skills
       </h1>
       {data2.map((item, idx) => (

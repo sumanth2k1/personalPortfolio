@@ -4,7 +4,7 @@ import {SlSocialFacebook, SlSocialGithub, SlSocialLinkedin, SlSocialTwitter, } f
 
 export default function Footer() {
   return (
-    <div className="w-full h-[35%] absolute text-white bg-[#001b5e] flex flex-col items-center">
+    <div className="w-full h-[35%] absolute text-white bg-neutral flex flex-col items-center">
         <div className="m-auto">
             <h1 className="text-center text-4xl h-auto items-center mb-4">Sumanth Devadiga</h1>
             <div className=" border-2 border-white  flex  rounded-full p-1 m-2 mx-6 justify-center items-center">

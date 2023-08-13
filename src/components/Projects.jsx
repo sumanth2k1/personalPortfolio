@@ -8,7 +8,7 @@ import portfolio from '../assets/portfolio.png'
 export default function Projects() {
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e]">Projects</h1>
+      <h1 className="text-4xl font-bold text-center ">Projects</h1>
       <p className="text-center py-8">
         These are few of the Projects I created during my time in Graduation, using the various Technologies and skills i acquired over the period of time. Browse through my Github for more such exciting projects.
       </p>
